@@ -4,6 +4,8 @@ This repository presents a sample implementation of the Paho MQTT Client in Pyth
 
 Here is a video of the example running:
 
+[![ExampleVideo](https://markdown-videos-api.jorgenkh.no/youtube/Z3n1iMPaOkA)](https://www.youtube.com/watch?v=Z3n1iMPaOkA)
+
 ## Motivation
 
 MQTT is a very important technology in IoT and is present in various industrial applications. As far as I have searched the web, there are no MQTT-ready scenarios in CoppeliaSim. It could be interfaced indirectly using the ZeroMQ or the socket API, but it would require additional libraries or another middleware in the communication. This code aims to aid people who are designing solutions using MQTT, and would like to use the Coppelia simulator for physics-driven scenarios, such as digital twins and industrial communications. Since the simulator is known for being both powerful and simple to use/install, this implementation tries to keep that minimalistic nature for the MQTT communication problem.
